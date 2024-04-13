@@ -15,7 +15,6 @@ def sortByFrequency(n: int, s: str) -> str:
             stt+=i
     return stt
 
-    
 '''
 def sortByFrequency(n: int, s: str) -> str:
     # Write your code here
