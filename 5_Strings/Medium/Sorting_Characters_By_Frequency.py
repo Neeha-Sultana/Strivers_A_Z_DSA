@@ -13,7 +13,6 @@ def sortByFrequency(n: int, s: str) -> str:
         x=dict1[i]
         for j in range(x):
             stt+=i
-
     return stt
 '''
 def sortByFrequency(n: int, s: str) -> str:
