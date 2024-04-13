@@ -22,8 +22,7 @@ def sortByFrequency(n: int, s: str) -> str:
         if x in dict:
             dict[x]+=1
         else:
-            dict[x]=1
- 
+            dict[x]=1 
     tuples = sorted(dict.items(),key=lambda x:x[1],reverse=True)
     li=[x[0]*x[1] for x in tuples]
     return "".join(li)
