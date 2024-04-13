@@ -7,7 +7,6 @@ def sortByFrequency(n: int, s: str) -> str:
             dict1[i]+=1
         else:
             dict1[i]=1
-
     sorted(dict1)
     stt=''
     for i in dict1:
