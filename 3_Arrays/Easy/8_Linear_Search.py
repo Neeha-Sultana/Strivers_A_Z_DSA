@@ -6,4 +6,3 @@ def linearSearch(n: int, num: int, arr: [int]) -> int:
     else:
         return -1
 
-
