@@ -7,7 +7,6 @@ def lowerBound(arr: [int], n: int, x: int) -> int:
             return i
     return n
 '''
-
 #Optimal
 def lowerBound(arr: [int], n: int, x: int) -> int:
     # Write your code here
