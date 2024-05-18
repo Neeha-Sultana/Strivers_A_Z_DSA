@@ -8,7 +8,7 @@ def romanToInt(s:str) -> int:
             result+=currentValue
         else:
 
-            
+          
             result-=currentValue
         prevValue=currentValue
     return result
