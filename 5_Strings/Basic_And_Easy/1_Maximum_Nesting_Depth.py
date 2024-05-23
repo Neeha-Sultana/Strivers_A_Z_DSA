@@ -7,6 +7,5 @@ def maxDepth(s:str) -> int:
             ct+=1
             maxi=max(ct,maxi)
         elif s[i]==')':
-            ct-=1
- 
+            ct-=1 
     return maxi
