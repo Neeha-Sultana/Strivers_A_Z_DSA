@@ -11,5 +11,8 @@ def searchInsert(arr: [int], m: int) -> int:
         else:
             low=midd+1
     return ans
-            
+
+
+
+
 
