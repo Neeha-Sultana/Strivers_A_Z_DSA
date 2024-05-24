@@ -15,4 +15,3 @@ def searchInsert(arr: [int], m: int) -> int:
 
 
 
-
